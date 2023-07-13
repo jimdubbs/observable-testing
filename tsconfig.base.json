@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@stackolo/todo-state": ["libs/todo-state/src/index.ts"],
+      "@stackolo/todo-ui": ["libs/todo-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
